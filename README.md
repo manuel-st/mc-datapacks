@@ -23,7 +23,7 @@ To change the weather, throw a gold block on a two blocks high pillar of obsidia
 
 Download [this zip-file](_packs/Weatherchanger-V2.zip). Installation instructions can be found [here](#Pack-Installation).
 
-# Pack Installation
+# Datapack Installation
 Download the .zip-file of the desired datapack and save it in `.minecraft/saves/*your-worldname*/datapacks/` without unzipping it. *your-worldname* is the folder of the Minecraft world the pack should be installed in.
 
 The world folder can be found by selecting the world (not starting it) and clicking on the "Edit" button on the bottom left corner. There simply choose "Open world folder" to open the folder and paste the datapack into the "datapacks" folder. (Create the folder if there is none.)
@@ -31,6 +31,11 @@ The world folder can be found by selecting the world (not starting it) and click
 The datapack should now be enabled when the world gets started.
 
 If cheats are enabled in the Minecraft world, type `/datapack list enabled` into the chat box and press ENTER. It should now display a message that contains `[file/*name-of-the-pack*.zip]`.
+
+# Remove Datapacks
+To remove a datapack temporarily, type `/datapack disable *datapack-name*` into the in-game chat. You will be able to reactivate the datapack without losing any information with `/datapack enable *datapack-name*` again.
+
+To permanently remove a datapack run `/function *datapack-name*:uninstall`. This will remove the data created by the datapacks. For example, the data for the weatherchanger datapack can be removed with `/function weatherchanger:uninstall`. Then simply remove the .zip-file from the worlds datapack folder at `.minecraft/saves/*your-worldname*/datapacks/`.
 
 # License
 The pack is licensed under the [MIT License](LICENSE.md). Please make sure that you use the pack in accordance with the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula)!
