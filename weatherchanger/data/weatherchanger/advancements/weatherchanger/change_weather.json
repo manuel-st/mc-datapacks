@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:gold_block"
         },
-        "title": {"translate":"Ein Sturm zieht auf"},
-        "description": {"translate":"Erzeuge ein Gewitter, indem du einen Goldblock auf zwei Obsidian wirfst"},
+        "title": {"translate":"Stormclouds"},
+        "description": {"translate":"Start a thunderstorm by throwing a gold block on a pillar of two obsidian."},
         "frame": "goal"
     },
     "parent": "minecraft:story/form_obsidian",
