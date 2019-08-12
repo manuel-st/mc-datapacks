@@ -4,7 +4,7 @@
             "item": "minecraft:end_stone"
         },
         "title": {"translate":"Shortcut to the End"},
-        "description": {"translate":"Erzeuge ein Gewitter, indem du einen Goldblock auf zwei Obsidian wirfst"},
+        "description": {"translate":"Create your very own end portal."},
         "frame": "goal"
     },
     "parent": "minecraft:end/find_end_city",
