@@ -17,7 +17,7 @@ A portal can be removed again by placing water on the end portal block in the ce
 Download [this zip-file](_packs/Personal_Endportal-V1.zip). Installation instructions can be found [here](#Pack-Installation).
 
 ## Weatherchanger
-Creates a shrine that allows to change to thunder, so you can use the [channeling enchantment](https://minecraft.gamepedia.com/Channeling) on your new fancy trident.
+The player is able to build a structure that changes the weather to a thunderstorm, so it can use the [channeling enchantment](https://minecraft.gamepedia.com/Channeling) on the new fancy trident.
 
 To change the weather, throw a gold block on a two blocks high pillar of obsidian and stand back!
 
