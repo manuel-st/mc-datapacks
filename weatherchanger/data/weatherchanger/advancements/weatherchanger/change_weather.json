@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "title": {"translate":"Ein Sturm zieht auf"},
+        "description": {"translate":"Erzeuge ein Gewitter, indem du einen Goldblock auf zwei Obsidian wirfst"},
+        "frame": "goal"
+    },
+    "parent": "minecraft:story/form_obsidian",
+    "criteria": {
+        "dummy": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 100
+    }
+}
