@@ -4,11 +4,11 @@ Various datapacks for Minecraft 1.14
 # List of Datapacks
 
 ## Weatherchanger
-Creates a shrine that allows to change to thunder, to use the [channeling enchantment](https://minecraft.gamepedia.com/Channeling) on your new fancy trident.
+Creates a shrine that allows to change to thunder, so you can use the [channeling enchantment](https://minecraft.gamepedia.com/Channeling) on your new fancy trident.
 
 To change the weather, throw a gold block on a two blocks high pillar of obsidian and stand back!
 
-Download [this zip-file](_packs/Weatherchanger-V1.zip). Installation instructions can be found [here](#Pack-Installation).
+Download [this zip-file](_packs/Weatherchanger-V2.zip). Installation instructions can be found [here](#Pack-Installation).
 
 # Pack Installation
 Download the .zip-file of the desired datapack and save it in `.minecraft/saves/*your-worldname*/datapacks/` without unzipping it. *your-worldname* is the folder of the Minecraft world the pack should be installed in.
