@@ -1,6 +1,6 @@
 {
     "values": [
-        "personal_endportal:create_portal",
+        "personal_endportal:test_creation",
         "personal_endportal:detect_new_player",
         "personal_endportal:test_destruction"
     ]
