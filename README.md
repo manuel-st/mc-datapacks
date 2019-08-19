@@ -3,6 +3,32 @@ Various datapacks for Minecraft 1.14
 
 # List of Datapacks
 
+## Mob Tags
+> Tags in data packs allow players to group items, blocks, fluids, entity types or functions together using JSON files.<br>
+> -- [Minecraft Wiki](https://minecraft.gamepedia.com/index.php?title=Tag&oldid=1416823)
+
+Since the amount of tags given by vanilla Minecraft is very limited, this pack adds various additional tags for mobs. These tags can be called in commands in [target selectors](https://minecraft.gamepedia.com/Commands#Target_selectors) to adress only certain types of mobs.
+
+With this datapack nstalled, it is no longer necessary to adress every mob on its own, instead certan groups can be affected. For example, to effect every zombie variant with the glowing effect, you can now use
+
+```
+/effect give @e[type=#mob_tags:zombies] minecraft:glowing 30
+```
+
+instead of using the **five** seperate commands
+
+```
+/effect give @e[type=minecraft:zombie] minecraft:glowing 30
+/effect give @e[type=minecraft:husk] minecraft:glowing 30
+/effect give @e[type=minecraft:zombie_villager] minecraft:glowing 30
+/effect give @e[type=minecraft:zombie_pigman] minecraft:glowing 30
+/effect give @e[type=minecraft:drowned] minecraft:glowing 30
+```
+
+Download [this zip-file](_packs/Mob_Tags-V1.zip) to obtain all packs. If you need only a single tag for your pack, choose it from [the unzipped pack](mob_tags/data/mob_tags/tags/entity_types/) and include it in your own namespace. A list of all available tags can be found [there](mob_tags/data/mob_tags/tags/entity_types/_List-of-Tags.md#Tags), too.
+
+Installation instructions can be found [here](#Pack-Installation).
+
 ## Personal Endportal
 This pack allows players to build their own end portal wherever they want after they have been to the end once and have collected some end stone and purpur blocks for the structure.
 
@@ -14,7 +40,7 @@ Every player can only create one portal. This number can be changed by an OP pla
 
 A portal can be removed again by placing water on the end portal block in the center. This requires shift-clicking on the edge of the portal frames, so the portal cannot be removed by accident.
 
-Download [this zip-file](_packs/Personal_Endportal-V1.zip). Installation instructions can be found [here](#Pack-Installation).
+Download [this zip-file](_packs/Personal_Endportal-V2.zip). Installation instructions can be found [here](#Pack-Installation).
 
 ## Weatherchanger
 The player is able to build a structure that changes the weather to a thunderstorm, so it can use the [channeling enchantment](https://minecraft.gamepedia.com/Channeling) on the new fancy trident.

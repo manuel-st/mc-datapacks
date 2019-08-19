@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:skeleton",
+        "minecraft:stray",
+        "minecraft:wither_skeleton",
+        "minecraft:zombie",
+        "minecraft:zombie_villager",
+        "minecraft:husk",
+        "minecraft:drowned",
+        "minecraft:pillager",
+        "minecraft:evoker",
+        "minecraft:vindicator"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:wither_skeleton",
+        "minecraft:blaze",
+        "minecraft:ghast",
+        "minecraft:magma_cube",
+        "minecraft:zombie_pigman",
+        "minecraft:enderman",
+        "minecraft:skeleton"
+    ]
+}
