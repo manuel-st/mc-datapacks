@@ -27,7 +27,7 @@ instead of using the **five** seperate commands
 
 Download [this zip-file](_packs/Mob_Tags-V1.zip) to obtain all packs. If you need only a single tag for your pack, choose it from [the unzipped pack](mob_tags/data/mob_tags/tags/entity_types/) and include it in your own namespace. A list of all available tags can be found [there](mob_tags/data/mob_tags/tags/entity_types/_List-of-Tags.md#Tags), too.
 
-Installation instructions can be found [here](#Pack-Installation).
+Installation instructions can be found [here](#Datapack-Installation).
 
 ## Personal Endportal
 This pack allows players to build their own end portal wherever they want after they have been to the end once and have collected some end stone and purpur blocks for the structure.
@@ -40,14 +40,14 @@ Every player can only create one portal. This number can be changed by an OP pla
 
 A portal can be removed again by placing water on the end portal block in the center. This requires shift-clicking on the edge of the portal frames, so the portal cannot be removed by accident.
 
-Download [this zip-file](_packs/Personal_Endportal-V2.zip). Installation instructions can be found [here](#Pack-Installation).
+Download [this zip-file](_packs/Personal_Endportal-V2.zip). Installation instructions can be found [here](#Datapack-Installation).
 
 ## Weatherchanger
 The player is able to build a structure that changes the weather to a thunderstorm, so it can use the [channeling enchantment](https://minecraft.gamepedia.com/Channeling) on the new fancy trident.
 
 To change the weather, throw a gold block on a two blocks high pillar of obsidian and stand back!
 
-Download [this zip-file](_packs/Weatherchanger-V2.zip). Installation instructions can be found [here](#Pack-Installation).
+Download [this zip-file](_packs/Weatherchanger-V2.zip). Installation instructions can be found [here](#Datapack-Installation).
 
 # Datapack Installation
 Download the .zip-file of the desired datapack and save it in `.minecraft/saves/*your-worldname*/datapacks/` without unzipping it. *your-worldname* is the folder of the Minecraft world the pack should be installed in.
