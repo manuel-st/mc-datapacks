@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:zombie_villager",
+        "minecraft:cat",
+        "minecraft:horse",
+        "minecraft:llama",
+        "minecraft:parrot",
+        "minecraft:trader_llama",
+        "minecraft:panda",
+        "minecraft:tropical_fish",
+        "minecraft:villager",
+        "minecraft:rabbit",
+        "minecraft:sheep",
+        "minecraft:mooshroom"
+    ]
+}

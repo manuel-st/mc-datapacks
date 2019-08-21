@@ -1,3 +1,5 @@
+[< Back to README.md](README.md)
+
 # Mob Tags
 > Tags in data packs allow players to group items, blocks, fluids, entity types or functions together using JSON files.<br>
 > -- [Minecraft Wiki](https://minecraft.gamepedia.com/index.php?title=Tag&oldid=1416823)
@@ -23,7 +25,7 @@ instead of using the **five** seperate commands
 # Tags
 These are the available tags. Use #mob_tags:*tagname* to use them in-game.
 
-* **mobs**: All mobs. This encludes only things like players, items, experience orbs and item frames from the entity list
+* **mobs**: All mobs. This excludes things like players, items, experience orbs and projectiles from the entity list
   
 ## Monsters
 * **arthropods**: All mobs that are affected by the [bane of arthropods enchantment](https://minecraft.gamepedia.com/Bane_of_Arthropods), namely spiders, silverfish and endermites
@@ -40,6 +42,7 @@ These are the available tags. Use #mob_tags:*tagname* to use them in-game.
 * **nether**: All mobs that naturally spawn in the nether, including normal skeletons and endermen
 * **nether_exclusive**: All mobs that only spawn in the nether, not counting normal skeletons and endermen
 * **neutral_monster**: All monsters that will only attack if provoked, namely the enderman, the zombie pigman and both spider types
+* **spiders**: Spider and cave spider
 * **undead**: All undead mobs that are effected by the [smite enchantment](https://minecraft.gamepedia.com/Smite)
 * **unused**: Mobs that are implemented in the game but only can be summoned with commands, namely the illusioner, the giant and the zombie horse
 * **zombies**: All zombie variants
@@ -60,12 +63,17 @@ These are the available tags. Use #mob_tags:*tagname* to use them in-game.
 * **trader**: The villager and the wandering trader
 * **trusting**: All mobs that show a special behaviour when interacting with the player even when they aren't tamed directly. This includes dolphins, foxes and ocelots
 
-## Mixed Groups
+## Mixed groups
 * **animal**: All mobs that are animals including spiders, cave spiders, silverfish, endermites and ravager. Use "animal_nonmonster" to exclude those five
 * **aquatic**: All mobs that can be found in the ocean and take additional damage by the [impaling enchantment](https://minecraft.gamepedia.com/Impaling). Note that drowneds don't count towards this list. Use "oceanic" to include them
 * **baby**: All mobs that have baby variants. Note that altough there are baby dolphins in the bedrock edition, dolphins aren't included. To exclude baby zombies, use "baby_nonmonster"
+* **drops_edible**: All mobs that drop something edible. This includes items that may have negative effects like rotten flesh and spider eyes. Use "drops_food" for a list of mobs that only drop food
+* **drops_food**: All  mobs that drop raw or cooked food items. To include other drops that are edible, but may give negative effects, use "drops_edible" instead
 * **flying**: All mobs that are able to fly or float
 * **jockey_rideable**: All mobs that can be mounted by monsters to form jockey combinations. Use "jockey" to target the mobs that are riding them
+* **multiple_variants**: All mobs that have multiple variants of skins
 * **neutral**: All mobs that will only attack if provoked. This group is a combination of the "neutral_monster" and "neutral_animal" group
 * **oceanic**: All mobs that are counted as "aquatic" by Minecraft, but additionally including drowneds
 * **turtle_attacker**: All mobs that will attack baby turtles or turtle eggs
+
+[< Back to README.md](README.md)

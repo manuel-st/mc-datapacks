@@ -25,7 +25,7 @@ instead of using the **five** seperate commands
 /effect give @e[type=minecraft:drowned] minecraft:glowing 30
 ```
 
-Download [this zip-file](_packs/Mob_Tags-V1.zip) to obtain all packs. If you need only a single tag for your pack, choose it from [the unzipped pack](mob_tags/data/mob_tags/tags/entity_types/) and include it in your own namespace. A list of all available tags can be found [there](mob_tags/data/mob_tags/tags/entity_types/_List-of-Tags.md#Tags), too.
+Download [this zip-file](_packs/Mob_Tags-V1.zip) to obtain all packs. If you need only a single tag for your pack, choose it from [the unzipped pack](mob_tags/data/mob_tags/tags/entity_types/) and include it in your own namespace. A list of all available tags can be found in the [List-of-Tags file](List-of-Tags.md#Tags).
 
 Installation instructions can be found [here](#Datapack-Installation).
 

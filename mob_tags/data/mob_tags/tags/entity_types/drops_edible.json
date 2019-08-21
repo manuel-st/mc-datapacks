@@ -1,0 +1,28 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:zombie",
+        "minecraft:zombie_villager",
+        "minecraft:husk",
+        "minecraft:drowned",
+        "minecraft:guardian",
+        "minecraft:elder_guardian",
+        "minecraft:witch",
+        "minecraft:zombie_pigman",
+        "minecraft:spider",
+        "minecraft:cave_spider",
+        "minecraft:dolphin",
+        "minecraft:zombie_horse",
+        "minecraft:polar_bear",
+        "minecraft:pufferfish",
+        "minecraft:tropical_fish",
+        "minecraft:salmon",
+        "minecraft:cod",
+        "minecraft:rabbit",
+        "minecraft:sheep",
+        "minecraft:pig",
+        "minecraft:cow",
+        "minecraft:mooshroom",
+        "minecraft:chicken"
+    ]
+}

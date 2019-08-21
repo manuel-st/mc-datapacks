@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:guardian",
+        "minecraft:elder_guardian",
+        "minecraft:dolphin",
+        "minecraft:polar_bear",
+        "minecraft:salmon",
+        "minecraft:cod",
+        "minecraft:rabbit",
+        "minecraft:sheep",
+        "minecraft:pig",
+        "minecraft:cow",
+        "minecraft:mooshroom",
+        "minecraft:chicken"
+    ]
+}
