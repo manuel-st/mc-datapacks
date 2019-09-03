@@ -4,6 +4,7 @@ Various datapacks for Minecraft 1.14
 - [Datapacks for Minecraft](#Datapacks-for-Minecraft)
 - [List of Crafting Recipe Tweaks](#List-of-Crafting-Recipe-Tweaks)
   - [All Stones Tools](#All-Stones-Tools)
+  - [Shapeless Paper](#Shapeless-Paper)
 - [List of Content Datapacks](#List-of-Content-Datapacks)
   - [Mob Tags](#Mob-Tags)
   - [Personal Endportal](#Personal-Endportal)
@@ -18,6 +19,11 @@ Various datapacks for Minecraft 1.14
 Allows the player to craft stone tools out of every stone variant. It is no longer necessary to use cobblestone, additionally these stone blocks can be used as well in any combination: Clean stone, every variant of stone bricks, smooth stone and granite, andesite and diorite as well as their polished variants.
 
 Download [this zip-file](_packs/All_Stones_Tools-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
+
+## Shapeless Paper
+Paper has now a shapeless recipe, which means it can now be crafted in the small 2*2 crafting grid in the player's inventory.
+
+Download [this zip-file](_packs/Shapeless_Paper-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
 
 # List of Content Datapacks
 
