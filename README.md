@@ -92,4 +92,4 @@ You don't have to credit me to use these packs. However, it would be nice to lea
 
 You are free to redistribute and modify these datapacks.
 
-Please make sure that you use the pack in accordance with the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula)! This includes, that you are **NOT** allowed to **earn money** with these datapacks.
+Please make sure that you use the pack in accordance with the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula)!
