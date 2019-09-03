@@ -88,4 +88,8 @@ To remove a datapack temporarily, type `/datapack disable *datapack-name*` into 
 To permanently remove a datapack run `/function *datapack-name*:uninstall`. This will remove the data created by the datapacks. For example, the data for the weatherchanger datapack can be removed with `/function weatherchanger:uninstall`. Then simply remove the .zip-file from the worlds datapack folder at `.minecraft/saves/*your-worldname*/datapacks/`.
 
 # License
-The pack is licensed under the [MIT License](LICENSE.md). Please make sure that you use the pack in accordance with the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula)!
+You don't have to credit me to use these packs. However, it would be nice to leave a notice if you are using one of the [Content Datapacks](#List-of-Content-Datapacks) on a public server or a map you make publicly available for download.
+
+You are free to redistribute and modify these datapacks.
+
+Please make sure that you use the pack in accordance with the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula)! This includes, that you are **NOT** allowed to **earn money** with these datapacks.
