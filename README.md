@@ -1,6 +1,16 @@
 # Datapacks for Minecraft
 Various datapacks for Minecraft 1.14
 
+- [Datapacks for Minecraft](#Datapacks-for-Minecraft)
+- [List of Datapacks](#List-of-Datapacks)
+  - [All Stones Tools](#All-Stones-Tools)
+  - [Mob Tags](#Mob-Tags)
+  - [Personal Endportal](#Personal-Endportal)
+  - [Weatherchanger](#Weatherchanger)
+- [Datapack Installation](#Datapack-Installation)
+- [Remove Datapacks](#Remove-Datapacks)
+- [License](#License)
+
 # List of Datapacks
 
 ## All Stones Tools
