@@ -2,8 +2,9 @@
 Various datapacks for Minecraft 1.14
 
 - [Datapacks for Minecraft](#Datapacks-for-Minecraft)
-- [List of Datapacks](#List-of-Datapacks)
+- [List of Crafting Recipe Tweaks](#List-of-Crafting-Recipe-Tweaks)
   - [All Stones Tools](#All-Stones-Tools)
+- [List of Content Datapacks](#List-of-Content-Datapacks)
   - [Mob Tags](#Mob-Tags)
   - [Personal Endportal](#Personal-Endportal)
   - [Weatherchanger](#Weatherchanger)
@@ -11,12 +12,14 @@ Various datapacks for Minecraft 1.14
 - [Remove Datapacks](#Remove-Datapacks)
 - [License](#License)
 
-# List of Datapacks
+# List of Crafting Recipe Tweaks
 
 ## All Stones Tools
 Allows the player to craft stone tools out of every stone variant. It is no longer necessary to use cobblestone, additionally these stone blocks can be used as well in any combination: Clean stone, every variant of stone bricks, smooth stone and granite, andesite and diorite as well as their polished variants.
 
 Download [this zip-file](_packs/All_Stones_Tools-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
+
+# List of Content Datapacks
 
 ## Mob Tags
 > Tags in data packs allow players to group items, blocks, fluids, entity types or functions together using JSON files.<br>
