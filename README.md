@@ -5,7 +5,7 @@ Various datapacks for Minecraft 1.14
 - [List of Crafting Recipe Tweaks](#List-of-Crafting-Recipe-Tweaks)
   - [All Stones Tools](#All-Stones-Tools)
   - [Craftable Bell](#Craftable-Bell)
-  - [Shapeless Paper](#Shapeless-Paper)
+  - [Shapeless Paper (and Bread!)](#Shapeless-Paper-and-Bread)
 - [List of Content Datapacks](#List-of-Content-Datapacks)
   - [Mob Tags](#Mob-Tags)
   - [Personal Endportal](#Personal-Endportal)
@@ -29,10 +29,12 @@ The crafting recipe looks like this:<br>
 
 Download [this zip-file](_packs/Craftable_Bell-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
 
-## Shapeless Paper
-Paper has now a shapeless recipe, which means it can now be crafted in the small 2*2 crafting grid in the player's inventory.
+## Shapeless Paper (and Bread!)
+Paper and bread have now a shapeless recipe, which means they can now be crafted in the small 2*2 crafting grid in the player's inventory.
 
-Download [this zip-file](_packs/Shapeless_Paper-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
+![Shapeless Paper](images/Shapeless_Paper.png "Shapeless Paper and Bread recipes")
+
+Download [this zip-file](_packs/Shapeless_Paper-V2.zip). Installation instructions can be found [here](#Datapack-Installation).
 
 # List of Content Datapacks
 
