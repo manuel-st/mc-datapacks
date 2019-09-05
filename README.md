@@ -30,9 +30,10 @@ The crafting recipe looks like this:<br>
 Download [this zip-file](_packs/Craftable_Bell-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
 
 ## Shapeless Paper (and Bread!)
-Paper and bread have now a shapeless recipe, which means they can now be crafted in the small 2*2 crafting grid in the player's inventory.
+Paper and bread get a shapeless recipe, which means they can now be crafted in the small 2*2 crafting grid in the player's inventory.
 
-![Shapeless Paper](images/Shapeless_Paper.png "Shapeless Paper and Bread recipes")
+![Shapeless Paper](images/Shapeless_Paper-Bread.png "Shapeless bread recipe")
+![Shapeless Paper](images/Shapeless_Paper.png "Shapeless paper recipe")
 
 Download [this zip-file](_packs/Shapeless_Paper-V2.zip). Installation instructions can be found [here](#Datapack-Installation).
 
