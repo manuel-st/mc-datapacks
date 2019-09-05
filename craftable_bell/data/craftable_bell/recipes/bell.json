@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "XGX",
+    "XNX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stone"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:bell"
+  }
+}
