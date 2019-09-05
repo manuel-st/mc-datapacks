@@ -3,6 +3,7 @@
     "values": [
         "minecraft:stone",
         "minecraft:cobblestone",
+        "minecraft:mossy_cobblestone",
         "minecraft:smooth_stone",
         "minecraft:granite",
         "minecraft:polished_granite",
