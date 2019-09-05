@@ -4,6 +4,7 @@ Various datapacks for Minecraft 1.14
 - [Datapacks for Minecraft](#Datapacks-for-Minecraft)
 - [List of Crafting Recipe Tweaks](#List-of-Crafting-Recipe-Tweaks)
   - [All Stones Tools](#All-Stones-Tools)
+  - [Cheaper Ice](#Cheaper-Ice)
   - [Craftable Bell](#Craftable-Bell)
   - [Shapeless Paper (and Bread!)](#Shapeless-Paper-and-Bread)
 - [List of Content Datapacks](#List-of-Content-Datapacks)
@@ -20,6 +21,17 @@ Various datapacks for Minecraft 1.14
 Allows the player to craft stone tools out of every stone variant. It is no longer necessary to use cobblestone, additionally these stone blocks can be used as well in any combination: Clean stone, every variant of stone bricks, smooth stone and granite, andesite and diorite as well as their polished variants.
 
 Download [this zip-file](_packs/All_Stones_Tools-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
+
+## Cheaper Ice
+The Cheaper Ice datapack changes the recipes of packed ice and blue ice to only require four pieces of ice and packed ice, respectively. It also adds the possibility to uncraft packed ice and blue ice back to ice again.
+
+All four recipes:<br>
+![Cheaper Ice recipe](images/Cheaper_Ice-Packed_Ice1.png "Ice to Packed Ice crafting recipe")
+![Cheaper Ice recipe](images/Cheaper_Ice-Blue_Ice.png "Packed Ice to Blue Ice crafting recipe")
+![Cheaper Ice recipe](images/Cheaper_Ice-Packed_Ice2.png "Blue Ice to Packed Ice crafting recipe")
+![Cheaper Ice recipe](images/Cheaper_Ice-Ice.png "Packed Ice to Ice crafting recipe")
+
+Download [this zip-file](_packs/Cheaper_Ice-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
 
 ## Craftable Bell
 The beautiful bells found in the villages since MC 1.14 could never be crafted. This is a real shame. But don't worry, this datapack will fix this! Bells can now be crafted.
