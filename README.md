@@ -10,6 +10,7 @@ Various datapacks for Minecraft 1.14
 - [List of Content Datapacks](#List-of-Content-Datapacks)
   - [Mob Tags](#Mob-Tags)
   - [Personal Endportal](#Personal-Endportal)
+  - [Villager Counter](#Villager-Counter)
   - [Weatherchanger](#Weatherchanger)
 - [Datapack Installation](#Datapack-Installation)
 - [Remove Datapacks](#Remove-Datapacks)
@@ -96,6 +97,20 @@ Every player can only create one portal. This number can be changed by an OP pla
 A portal can be removed again by placing water on the end portal block in the center. This requires shift-clicking on the edge of the portal frames, so the portal cannot be removed by accident.
 
 Download [this zip-file](_packs/Personal_Endportal-V2.zip). Installation instructions can be found [here](#Datapack-Installation).
+
+## Villager Counter
+This datapack will count the villagers and iron golems that are in a village if the player rings a bell there. You will now know how many villagers are in your village.<br>
+![types of villager counted](images/Villager_Counter-scoreboard.png "types of villagers")
+
+The datapack will highlight often used villager professions like the librarians and the farmers and will gray out types that cannot be traded with.
+
+It will also count baby villagers seperately.
+
+The overlay will be shown once a bell has been rung for the first time and will stay visible. OP players can use `/function villager_counter:hide` to remove the overlay and `/function villager_counter:show` to show it again.
+
+Download [this zip-file](_packs/Villager_Counter-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
+
+To remove the datapack completely, run `/function villager_counter:uninstall` before removing it from the datapacks folder.
 
 ## Weatherchanger
 The player is able to build a structure that changes the weather to a thunderstorm, so it can use the [channeling enchantment](https://minecraft.gamepedia.com/Channeling) on the new fancy trident.
