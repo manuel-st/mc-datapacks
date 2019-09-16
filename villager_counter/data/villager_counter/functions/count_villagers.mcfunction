@@ -46,4 +46,5 @@ execute as @e[type=minecraft:villager, distance=..70, nbt={VillagerData:{profess
 execute as @e[type=minecraft:villager, distance=..70, nbt={VillagerData:{profession:"minecraft:none"}}] if score @s vc_babycheck matches 0.. run scoreboard players add UnemployedVillagers villagerCounter 1
 
 # reset
-scoreboard players set @p vc_ringbell 0
+scoreboard players set @p vc_ringbell 2
+function villager_counter:show

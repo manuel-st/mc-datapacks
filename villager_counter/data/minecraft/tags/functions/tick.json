@@ -1,5 +1,6 @@
 {
     "values": [
-        "villager_counter:start_counting"
+        "villager_counter:start_counting",
+        "villager_counter:settings"
     ]
 } 
