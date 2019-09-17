@@ -1,1 +1,1 @@
-scoreboard objectives setdisplay sidebar
+team leave @p

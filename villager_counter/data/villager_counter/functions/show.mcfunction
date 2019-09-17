@@ -1,1 +1,1 @@
-scoreboard objectives setdisplay sidebar villagerCounter
+team join vc_display @p

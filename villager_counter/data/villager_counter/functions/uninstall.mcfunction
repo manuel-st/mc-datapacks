@@ -1,3 +1,6 @@
+# remove vc_display
+scoreboard objectives setdisplay sidebar.team.white
+
 # remove scoreboards
 scoreboard objectives remove villagerCounter
 scoreboard objectives remove vc_ringbell
@@ -12,3 +15,4 @@ team remove vc_green
 team remove vc_gray
 team remove vc_yellow
 team remove vc_blue
+team remove vc_display

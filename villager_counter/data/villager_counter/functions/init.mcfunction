@@ -16,6 +16,9 @@ scoreboard players set vc_score_20 vc_readTime 20
 # settings
 scoreboard objectives add vc_settings trigger "Settings"
 
+# activate
+scoreboard objectives setdisplay sidebar.team.white villagerCounter
+
 # add teams to color in villagers
 team add vc_green
 team modify vc_green color green
@@ -35,3 +38,6 @@ team add vc_blue
 team modify vc_blue color blue
 team join vc_blue NaturalIronGolems
 team join vc_blue PlayermadeIronGolems
+
+team add vc_display
+team modify vc_display color white
