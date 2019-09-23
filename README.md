@@ -8,6 +8,7 @@ Various datapacks for Minecraft 1.14
   - [Craftable Bell](#Craftable-Bell)
   - [Inventory Bread and Paper](#Inventory-Bread-and-Paper)
 - [List of Content Datapacks](#List-of-Content-Datapacks)
+  - [Enchanted Villagers](#Enchanted-Villagers)
   - [Mob Tags](#Mob-Tags)
   - [Personal Endportal](#Personal-Endportal)
   - [Villager Counter](#Villager-Counter)
@@ -58,6 +59,40 @@ Paper and bread get a shapeless recipe, which means they can now be crafted in t
 Download [this zip-file](_packs/Inventory_Bread_and_Paper-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
 
 # List of Content Datapacks
+
+## Enchanted Villagers
+The Enchanted Villagers helps to find a specified enchantment in a trading hall with a lot of librarians.
+
+The player can obtain the enchanted villagers book by typing
+
+```/trigger ev_giveBook```
+
+into the chat. This book will list all enchantments with the cheapest price available.
+
+By clicking on an enchantment, all villagers that trade this enchantment will be highlighted for a short period of time (this can be disabled by the player that adds the datapack).
+
+**Disable highlighting villagers**<br>
+When adding the datapack, edit line 5 of the file [data/enchanted_villagers/functions/enable_trigger.mcfunction](enchanted_villagers/data/enchanted_villagers/functions/enable_trigger.mcfunction) and change the 1 at the end to a 0:
+
+```execute at @a unless score @p ev_canSearch matches 0.. run scoreboard players set @p ev_canSearch 1```
+
+You can also disable this setting for specific players:
+
+```scoreboard players set *player_name* ev_canSearch 0```
+
+and enable it only for specific players, too:
+
+```scoreboard players set *player_name* ev_canSearch 1```
+
+Just replace *player_name* with the in-game name of the player you want to target (or with any target selector to target multiple players).
+
+**Statistics**<br>
+The datapack comes with two statistics you can use for other datapacks or functions if you want to:
+
+* `ev_tookBooks`: This scoreboard counts how often a player used the "/trigger ev_giveBook" command.
+* `ev_searched`: This scoreboard counts how often a player clicked on an enchantment to view the villagers that have this trade. It won't test if the search was successful (if there were one or multiple villagers that trade this book).
+
+Download [this zip-file](_packs/Enchanted_Villagers-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
 
 ## Mob Tags
 > Tags in data packs allow players to group items, blocks, fluids, entity types or functions together using JSON files.<br>
