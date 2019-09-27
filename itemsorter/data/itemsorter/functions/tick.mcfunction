@@ -32,4 +32,4 @@ execute as @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"t
 # item spawning
 execute at @e[type=minecraft:area_effect_cloud,tag=itemsorter] if block ~ ~-1 ~ minecraft:dropper run function itemsorter:dropper
 execute at @e[type=minecraft:area_effect_cloud,tag=itemsorter] if block ~ ~-1 ~ minecraft:dispenser run function itemsorter:dropper
-execute at @e[type=minecraft:area_effect_cloud,tag=itemsorter] if block ~ ~-1 ~ minecraft:hopper run function itemsorter:hopper
+execute at @e[type=minecraft:area_effect_cloud,tag=itemsorter] if block ~ ~ ~ minecraft:hopper unless block ~ ~-1 ~ minecraft:dispenser unless block ~ ~-1 ~ minecraft:dropper run function itemsorter:hopper
