@@ -12,7 +12,15 @@ execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"t
 execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] if block ~ ~-1 ~ minecraft:dropper unless block ~ ~-1 ~ minecraft:dropper[facing=south] run setblock ~ ~-1 ~ minecraft:dropper[facing=south] replace
 execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] if block ~ ~-1 ~ minecraft:dispenser unless block ~ ~-1 ~ minecraft:dispenser[facing=south] run setblock ~ ~-1 ~ minecraft:dispenser[facing=south] replace
 execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] if block ~ ~ ~ minecraft:hopper unless block ~ ~-1 ~ minecraft:dispenser unless block ~ ~-1 ~ minecraft:dropper unless block ~ ~ ~ minecraft:hopper[facing=south] run setblock ~ ~ ~ minecraft:hopper[facing=south] replace
+
+# prevent player losing sorter
+execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] unless block ~ ~-1 ~ #itemsorter:sorter_placeable run scoreboard players add returnCheck is_itemCount 1
+execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] unless block ~ ~ ~ #itemsorter:sorter_placeable run scoreboard players add returnCheck is_itemCount 1
+execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] if score returnCheck is_itemCount matches 2 run give @p minecraft:bat_spawn_egg{display:{Name:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}}
+execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] run scoreboard players set returnCheck is_itemCount 0
 execute as @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] run kill @s
+
+# prevent despawning of itemsorter
 execute at @e[type=minecraft:area_effect_cloud,tag=itemsorter] run data modify entity @e[type=minecraft:area_effect_cloud,tag=itemsorter,limit=1,sort=nearest] Age set value -32768
 
 # remove item sorter
