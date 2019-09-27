@@ -6,9 +6,12 @@ execute at @e[type=minecraft:item,tag=isrecipe] run kill @e[type=minecraft:item,
 execute as @e[type=minecraft:item,tag=isrecipe] run kill @s
 
 # create sorter
-execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] run summon minecraft:area_effect_cloud ~ ~ ~ {Age:-32768,Tags:["itemsorter"],Invulnerable:1b,Particle:"block air"}
+execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] if block ~ ~-1 ~ minecraft:dropper unless block ~ ~ ~ minecraft:hopper run summon minecraft:area_effect_cloud ~ ~ ~ {Age:-32768,Tags:["itemsorter"],Invulnerable:1b,Particle:"block air"}
+execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] if block ~ ~-1 ~ minecraft:dispenser unless block ~ ~ ~ minecraft:hopper run summon minecraft:area_effect_cloud ~ ~ ~ {Age:-32768,Tags:["itemsorter"],Invulnerable:1b,Particle:"block air"}
+execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] if block ~ ~ ~ minecraft:hopper unless block ~ ~-1 ~ minecraft:dispenser unless block ~ ~-1 ~ minecraft:dropper run summon minecraft:area_effect_cloud ~ ~ ~ {Age:-32768,Tags:["itemsorter"],Invulnerable:1b,Particle:"block air"}
 execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] if block ~ ~-1 ~ minecraft:dropper run setblock ~ ~-1 ~ minecraft:dropper[facing=south] replace
 execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] if block ~ ~-1 ~ minecraft:dispenser run setblock ~ ~-1 ~ minecraft:dispenser[facing=south] replace
+execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] if block ~ ~ ~ minecraft:hopper unless block ~ ~-1 ~ minecraft:dispenser unless block ~ ~-1 ~ minecraft:dropper run setblock ~ ~ ~ minecraft:hopper[facing=south] replace
 execute as @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}] run kill @s
 execute at @e[type=minecraft:area_effect_cloud,tag=itemsorter] run data modify entity @e[type=minecraft:area_effect_cloud,tag=itemsorter,limit=1,sort=nearest] Age set value -32768
 
