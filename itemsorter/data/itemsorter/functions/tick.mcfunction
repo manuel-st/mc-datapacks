@@ -16,6 +16,8 @@ execute as @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"t
 execute at @e[type=minecraft:area_effect_cloud,tag=itemsorter] run data modify entity @e[type=minecraft:area_effect_cloud,tag=itemsorter,limit=1,sort=nearest] Age set value -32768
 
 # remove item sorter
+execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Remove Item Sorter\"}"}] if entity @e[type=minecraft:area_effect_cloud,tag=itemsorter,distance=..0.5] run give @p minecraft:bat_spawn_egg{display:{Name:"{\"color\":\"dark_purple\",\"text\":\"Item Sorter\"}"}}
+execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Remove Item Sorter\"}"}] run give @p minecraft:bat_spawn_egg{display:{Name:"{\"color\":\"dark_purple\",\"text\":\"Remove Item Sorter\"}"}}
 execute at @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Remove Item Sorter\"}"}] run kill @e[type=minecraft:area_effect_cloud,tag=itemsorter,distance=..0.5]
 execute as @e[type=minecraft:bat,nbt={CustomName:"{\"color\":\"dark_purple\",\"text\":\"Remove Item Sorter\"}"}] run kill @s
 
