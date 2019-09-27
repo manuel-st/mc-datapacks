@@ -11,6 +11,7 @@ Various datapacks for Minecraft 1.14
   - [Enchanted Villagers](#Enchanted-Villagers)
   - [Mob Tags](#Mob-Tags)
   - [Personal Endportal](#Personal-Endportal)
+  - [Quintuple Item Sorter](#Quintuple-Item-Sorter)
   - [Villager Counter](#Villager-Counter)
   - [Weatherchanger](#Weatherchanger)
 - [Datapack Installation](#Datapack-Installation)
@@ -132,6 +133,24 @@ Every player can only create one portal. This number can be changed by an OP pla
 A portal can be removed again by placing water on the end portal block in the center. This requires shift-clicking on the edge of the portal frames, so the portal cannot be removed by accident.
 
 Download [this zip-file](_packs/Personal_Endportal-V2.zip). Installation instructions can be found [here](#Datapack-Installation).
+
+## Quintuple Item Sorter
+Craft yourself an item sorter by throwing 5 hoppers and 5 redstone dust on the ground. Place this item sorter on top of a dropper, a dispenser or even a hopper and put the items into that block that you want to sort. The slot determines in which direction the item will be transferred:
+
+![](images/Itemsorter-Dropper.png)
+![](images/Itemsorter-Hopper.png)<br>
+D = Down, N = North, E = East, S = South, W = West. The Dispenser works in the same way the dropper does.
+
+The easiest way to place items in the correct slot is by standing in front of the face of the dispenser or the dropper, or the direction the hopper points into. Then the slot that will drop the items into the direction the player looks is the top slot, the slot to the left will drop the items to the left and so on.
+
+The block where the item should drop into has to be an air block.
+
+A complete setup with all five directions used will look like this:<br>
+![](images/Itemsorter-Setup.png)
+
+The Item Sorter can be automated completely with hoppers. But remember: When you automate it from a direction, items cannot be dropped into this direction, so the best way is to input items from the top - like seen in the picture above. Also remember to fill any unused slot with junk items, so the items you want to sort go into the correct slot.
+
+Download [this zip-file](_packs/Quintuple_Item_Sorter-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
 
 ## Villager Counter
 This datapack will count the villagers and iron golems that are in a village if the player rings a bell there. You will now know how many villagers are in your village.<br>
