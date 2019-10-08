@@ -8,6 +8,7 @@ Various datapacks for Minecraft 1.14
   - [Craftable Bell](#Craftable-Bell)
   - [Inventory Bread and Paper](#Inventory-Bread-and-Paper)
 - [List of Content Datapacks](#List-of-Content-Datapacks)
+  - [Better Drowneds](#Better-Drowneds)
   - [Enchanted Villagers](#Enchanted-Villagers)
   - [Mob Tags](#Mob-Tags)
   - [Personal Endportal](#Personal-Endportal)
@@ -60,6 +61,16 @@ Paper and bread get a shapeless recipe, which means they can now be crafted in t
 Download [this zip-file](_packs/Inventory_Bread_and_Paper-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
 
 # List of Content Datapacks
+
+## Better Drowneds
+
+I found a forum post by miner_reminer who complained about the drowned mechanics and I thought: "Yes, I think the same way." So I granted his request and made a datapack with some changes to the drowneds:
+
+Drowneds no longer spawn with tridents! Instead, they will try to pull the player into the water and inflict blindness.
+
+Drowneds will now drop tridents with a 1.5% chance and nautilus shells with a 5% chance (both chances can be increased with looting up to 4.5% and 11% respectively).
+
+Download [this zip-file](_packs/Better_Drowneds-V1.zip). Installation instructions can be found [here](#Datapack-Installation).
 
 ## Enchanted Villagers
 The Enchanted Villagers helps to find a specified enchantment in a trading hall with a lot of librarians.

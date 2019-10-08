@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "drowned": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type":"minecraft:drowned"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "drowned"
+    ]
+  ],
+  "rewards": {
+    "function": "better_drowneds:teleport_down"
+  }
+} 
