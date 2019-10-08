@@ -13,7 +13,7 @@ assignees: ''
 *At the end of the file name, there is a "-V…". Which number was there?*
 
 **Game Version**
-*Which version of Minecraft are you using this bug in?*
+*Which version of Minecraft are you using?*
  
 **Description of the Bug**
 *What happened what shouldn't have happened?*
