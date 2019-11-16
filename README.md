@@ -174,7 +174,7 @@ It will also count baby villagers seperately.
 **UPDATE**<br>
 Since version 2, players will be able to change their settings on how long the scoreboard will be displayed for them by using `/trigger vc_settings` in the chat box. Additionally, players that didn't rung a bell or chose to hide the scoreboard will no longer see it when any other player rings a bell.
 
-**WARNING**: If you use [teams](https://minecraft.gamepedia.com/Commands/team) yourself or in any other datapack, version 2 **WILL BREAK** them. Until I figure out a way to fix that, use  [version 1](https://github.com/manuel-st/mc-datapacks/blob/master/_packs/Villager_Counter-V1.zip) instead!
+**WARNING**: If you use [teams](https://minecraft.gamepedia.com/Commands/team) yourself or in any other datapack, version 2 **WILL BREAK** them, use  [version 3](https://github.com/manuel-st/mc-datapacks/blob/master/_packs/Villager_Counter-V3.zip) instead!
 
 Download [this zip-file](_packs/Villager_Counter-V2.zip). Installation instructions can be found [here](#Datapack-Installation).
 

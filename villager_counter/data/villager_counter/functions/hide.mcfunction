@@ -1,1 +1,0 @@
-team leave @p
